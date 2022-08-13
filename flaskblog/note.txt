@@ -1,0 +1,6 @@
+https://hackersandslackers.com/plotly-dash-with-flask/
+
+
+code generation 
+
+https://stackoverflow.com/questions/28788186/how-to-run-sqlacodegen
