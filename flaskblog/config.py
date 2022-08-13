@@ -1,7 +1,6 @@
 import os 
-from dotenv import load_dotenv
-load_dotenv()
+import creds
 
 class Config:
-    SECRET_KEY = os.getenv('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI')
+    SECRET_KEY = creds.SECRET_KEY
+    SQLALCHEMY_DATABASE_URI = creds.SQLALCHEMY_DATABASE_URI
